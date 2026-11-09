@@ -1,0 +1,25 @@
+# runtime
+*.log
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+.env
+
+# local-only dumps / captures (do not publish)
+_scratch/
+collect_*/
+out_*/
+*.zip
+_ez_*.js
+out_*.js
+out_*.html
+out_*.txt
+pktmon.txt
+
+# editor
+.idea/
+.vscode/
+*.swp
+.DS_Store
